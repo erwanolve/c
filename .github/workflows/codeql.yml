@@ -76,7 +76,7 @@ jobs:
     # - run: |
     #     echo "Run, Build Application using script"
     #     ./location_of_script_within_repo/buildscript.sh
-    - if: matrix.language| == 'c-cpp'
+    - if: matrix.language == 'c-cpp'
       name: Build C
       run: |
         make
