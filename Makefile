@@ -1,2 +1,2 @@
-all: test.c
-    gcc test.c
+all: code.c
+    gcc code.c
